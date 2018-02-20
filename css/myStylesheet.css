@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+ body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.hero-image {
+  margin-top: 50px;
+  background-image: url('../assets/main1.jpg');
+  height:80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+ 
+.top {
+  color: dark-grey;
+  margin-top: 10px; 
+  font-weight: bold;
+  font-size: 80px;
+} 
+
+#displayDate {
+	position: absolute;
+	top: 0px;
+	right: 2px;	
+    font-size: 14px;
+	text-align:right;
+	width: 200px;
+	color: white;
+} 
+
+.container.projects {
+	width: 1640px;
+	height:600px;
+	background-color: #ccccce;
+	margin-top:40px;
+	padding-top:30px;
+}
+
+h1.page-header.project {
+	color:grey;
+	text-align:center;
+	font-size: 42px;
+}
+
+.col-md-4.projImage {
+	 margin-top:8px;
+}
+
+.panel-heading.fill-Color {
+	font-size:36px;
+	color: #fff;
+}
+.panel-heading.fill-Color.one {
+	background-color: grey;
+	/*background-color:#328332; */
+	
+}
+.panel-heading.fill-Color.two {
+	background-color:red;
+	
+}
+.panel-heading.fill-Color.three {
+	background-color:blue;
+	
+}
+.panel-body {
+	color: #fff;
+	min-height: 150px;
+}
+.panel-body.one {
+	background-color: #778899;
+}
+.panel-body.two {
+	background-color: red;
+}
+.panel-body.three{
+	background-color: blue;
+}
+.panel.panel-default {
+	margin-top: 0;
+	min-height: 150px;
+	border-radius: 35px;
+}
+
+.fa.fa-fw.fa-check {
+	padding-left: 20px;
+	
+}
+.fa.fa-fw.fa-gift {
+	padding-left: 20px;
+	
+}
+.fa.fa-fw.fa-compass {
+	padding-left: 20px;
+	
+}
+.custom-bullet li {
+    display: block;
+}
+
+#bs-example-navbar-collapse-1 {
+	font-size: 120%;
+}
+
+.custom-bullet li:before
+{
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #CCCCCC;
+}
+.btn.btn-default.btnColor {
+  background-color:#006400;
+  color: #fff;
+}
+
+.footer {
+  text-align:right;
+  padding-top: 50px;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+/* AboutMe page styles */
+
+.hero-image-aboutMe {
+  margin-top: 20px;
+  background-image: url('../assets/great2.jpg');
+  height:60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container.aboutMe {
+	margin-top: 10px;
+}
+div.aboutMeText {
+	margin: 10px 120px;
+	font-size: 18px;
+	
+}
+.text-align-center {
+	text-align: center;
+}
+
+
+	
